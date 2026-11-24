@@ -1,5 +1,4 @@
 # keijiban
-<img width="1920" height="1032" alt="screenshot2" src="https://github.com/user-attachments/assets/b2ab3de3-db0c-460f-93a8-2aff077de6a9" />
 <img width="1920" height="1032" alt="screenshot1" src="https://github.com/user-attachments/assets/12749c80-0198-409d-8265-69398d999319" />
 
 PHP + MySQLで作成したシンプルな掲示板です。  
@@ -33,6 +32,9 @@ keijiban/
 
 ```bash
 mysql -u root -p < keijiban.sql
+create user 'poster'@'localhost' identified by 'password';
+grant select, insert on keijiban.* to 'kenji'@'localhost';
+flush privileges;
 ```
 
 `db_info.php` の接続情報は、自分の環境に合わせて変更してください。
