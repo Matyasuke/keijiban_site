@@ -1,7 +1,11 @@
 # keijiban
+<img width="1920" height="1032" alt="screenshot2" src="https://github.com/user-attachments/assets/b2ab3de3-db0c-460f-93a8-2aff077de6a9" />
+<img width="1920" height="1032" alt="screenshot1" src="https://github.com/user-attachments/assets/12749c80-0198-409d-8265-69398d999319" />
 
 PHP + MySQLで作成したシンプルな掲示板です。  
 2023年作成。LAMP環境で動作します。
+
+
 
 ## 機能
 
